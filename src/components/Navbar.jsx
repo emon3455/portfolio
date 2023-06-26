@@ -38,7 +38,7 @@ const Navbar = () => {
                             <li><Link to="/projects">Projects</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-4xl font-bold bg-gradient-to-r  from-indigo-700 via-purple-500 to-pink-400 bg-clip-text text-transparent">Emon</a>
+                    <Link className="btn btn-ghost normal-case text-4xl font-bold bg-gradient-to-r  from-indigo-700 via-purple-500 to-pink-400 bg-clip-text text-transparent">Emon</Link>
                 </div>
 
                 <div className="navbar-end ">

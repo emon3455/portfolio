@@ -1,10 +1,10 @@
 import Lottie from "lottie-react";
-import bnr from "../../../public/data.json"
+import bnr from "../../../public/bnr.json"
 import Typewriter from 'react-ts-typewriter';
 
 const Banner = () => {
     return (
-        <div className="container mx-auto mb-5 h-[700px]">
+        <div className="container mx-auto mb-5 lg:h-[700px]">
             <div className="flex justify-center items-center flex-col-reverse lg:flex-row">
                 <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
                     <div className="">
