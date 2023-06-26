@@ -4,7 +4,7 @@ import Typewriter from 'react-ts-typewriter';
 
 const Banner = () => {
     return (
-        <div className="container mx-auto mb-5">
+        <div className="container mx-auto mb-5 h-[700px]">
             <div className="flex justify-center items-center flex-col-reverse lg:flex-row">
                 <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
                     <div className="">
@@ -14,7 +14,7 @@ const Banner = () => {
                         <h4 className="text-4xl lg:text-6xl font-bold">
                             A <span className="bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"><Typewriter
                                 speed={300}
-                                text={["MERN Stack Developer,", "React Developer,", "Web Developer,", "Web Designer,",]}
+                                text={["MERN Stack Developer,", "React Developer,", "Web Developer,",]}
                                 loop={true}
                                 delay={50}
                             /></span> 
