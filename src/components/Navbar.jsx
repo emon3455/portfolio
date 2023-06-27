@@ -1,12 +1,19 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
+
+    const navMenu = <>
+        <li><Link to="home" smooth={true} offset={-150} duration={1500}>Home</Link></li>
+        <li><Link to="about" smooth={true} offset={-150} duration={1500}>About</Link></li>
+        <li><Link to="skills" smooth={true} offset={-150} duration={1500}>Skills</Link></li>
+        <li><Link to="projects" smooth={true} offset={-120} duration={1500}>Projects</Link></li>
+        <li><Link to="contact" smooth={true} offset={-150} duration={1500}>Contact</Link></li>
+    </>
 
     const [theme, setTheme] = useState(
         localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
     );
-
 
     // update state on toggle
     const handleToggle = (e) => {
@@ -24,7 +31,6 @@ const Navbar = () => {
         document.querySelector("html").setAttribute("data-theme", localTheme);
     }, [theme]);
 
-
     return (
         <>
             <div className="navbar bg-base-100  shadow-lg shadow-sky-400/50 sticky top-0 z-10">
@@ -33,24 +39,16 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="#about">About</Link></li>
-                            <li><Link to="#skills">Skills</Link></li>
-                            <li><Link to="#projects">Projects</Link></li>
-                            <li><Link to="#contact">Contact</Link></li>
+                        <ul tabIndex={0} className="menu menu-sm text-xl dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            {navMenu}
                         </ul>
                     </div>
                     <Link className="btn btn-ghost normal-case text-4xl font-bold bg-gradient-to-r  from-indigo-700 via-purple-500 to-pink-400 bg-clip-text text-transparent">Emon</Link>
                 </div>
 
                 <div className="navbar-end ">
-                    <ul className="menu menu-horizontal px-1 text-lg  hidden lg:flex">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="#about">About</Link></li>
-                        <li><Link to="#skills">Skills</Link></li>
-                        <li><Link to="#projects">Projects</Link></li>
-                        <li><Link to="#contact">Contact</Link></li>
+                    <ul className="menu menu-horizontal px-1 text-xl  hidden lg:flex ">
+                        {navMenu}
                     </ul>
                     <button>
                         <label className="swap swap-rotate">

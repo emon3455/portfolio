@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img1 from "../../../../public/project/p1/img1.png";
 import img2 from "../../../../public/project/p2/img1.png";
 import img3 from "../../../../public/project/p3/img1.png";
-import { FaExternalLinkAlt, FaGithub , FaCode } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGithub, FaCode } from 'react-icons/fa';
 
 import "./Project.css"
 
@@ -63,10 +63,10 @@ const Projects = () => {
 
 
     return (
-        <div className="my-10 container mx-auto h-full lg:h-[700px]">
-            <h2 className="p-2 text-4xl lg:text-6xl text-center font-extrabold bg-gradient-to-r  from-indigo-700 via-purple-400 to-pink-600 bg-clip-text text-transparent">Top Projects</h2>
+        <div id="projects" className="my-10 container mx-auto h-full xl:h-[700px]">
+            <h2 className="p-2 text-4xl xl:text-6xl text-center font-extrabold bg-gradient-to-r  from-indigo-700 via-purple-400 to-pink-600 bg-clip-text text-transparent">Top Projects</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-4 my-6 p-2 lg:p-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-4 my-6 p-2">
 
                 {
                     projects.map(prj => <div key={prj.id} className="card card-compact shadow-lg shadow-sky-500/50 bg-base-100 ">
@@ -78,11 +78,13 @@ const Projects = () => {
                             <p className="text-lg">
                                 {prj.projectDescription}
                             </p>
-                            <div className="flex justify-around">
+                            <div className="grid grid-cols-1 justify-center gap-2">
 
-                                <Link to={prj.liveLink} className=" btn bg-sky-100"> Live Link<FaExternalLinkAlt className="text-lg" /> </Link>
-                                <Link to={prj.clientSideCode} className=" btn "> Client Side <FaGithub className="text-lg" /> </Link>
-                                <Link to={prj.serverSideCode} className=" btn bg-violet-100"> Server Side<FaCode className="text-lg" /> </Link>
+                                <div className="flex justify-around gap-2">
+                                    <Link to={prj.serverSideCode} className=" btn bg-violet-200"> Server Side<FaCode className="text-lg" /> </Link>
+                                    <Link to={prj.clientSideCode} className=" btn bg-yellow-200"> Client Side <FaGithub className="text-lg" /> </Link>
+                                </div>
+                                <Link to={prj.liveLink} className=" btn bg-sky-200"> Live Link<FaExternalLinkAlt className="text-lg" /> </Link>
 
                             </div>
 

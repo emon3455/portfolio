@@ -33,11 +33,11 @@ import { Pagination } from "swiper";
 const Skills = () => {
 
     return (
-        <div className="container mx-auto lg:h-[700px]">
-            <h2 className="my-6 text-4xl lg:text-6xl font-extrabold text-center text-violet-600">
+        <div id="skills" className="container mx-auto lg:h-[700px] px-2">
+            <h2 className="my-6 text-4xl xl:text-6xl font-extrabold text-center text-violet-600">
                 Skills
             </h2>
-            <p className="text-xl text-center font-semibold">
+            <p className="text-lg lg:text-xl p-2 text-justify lg:p-0 lg:text-center font-semibold">
                 As a full-stack developer, I have expertise in front-end and back-end technologies, including React.js for building interactive user interfaces and Node.js/Express.js for server-side development. I also have experience with MongoDB for efficient data management and Git for version control. With a background in computer science, I am proficient in multiple programming languages, To understand more please go through each tabs.
             </p>
             <div className="my-10 py-5 shadow-lg shadow-sky-400/50">
@@ -166,18 +166,18 @@ const Skills = () => {
                 </Swiper> */}
 
                 <Tabs>
-                    <TabList>
+                    <TabList className="text-center p-2">
                         <Tab>
-                            <span className='btn lg:text-2xl bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold border-0 border-b-4 border-violet-500 '>Front End</span>
+                            <span className='btn lg:text-lg xl:text-2xl bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold border-0 border-b-4 border-violet-500 '>Front End</span>
                         </Tab>
                         <Tab>
-                            <span className='btn lg:text-2xl text-violet-600 font-extrabold border-0 border-b-4 border-violet-500 '>BackEnd</span>
+                            <span className='btn lg:text-lg xl:text-2xl bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold border-0 border-b-4 border-violet-500 '>BackEnd</span>
                         </Tab>
                         <Tab>
-                            <span className='btn lg:text-2xl bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold border-0 border-b-4 border-violet-500 '>Tools & Technology</span>
+                            <span className='btn lg:text-lg xl:text-2xl bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold border-0 border-b-4 border-violet-500 '>Tools & Technology</span>
                         </Tab>
                         <Tab>
-                            <span className='btn lg:text-2xl text-violet-600 font-extrabold border-0 border-b-4 border-violet-500 '>Programming Language</span>
+                            <span className='btn lg:text-lg xl:text-2xl bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold border-0 border-b-4 border-violet-500 '>Programming Language</span>
                         </Tab>
                     </TabList>
 
