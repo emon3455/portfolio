@@ -24,8 +24,8 @@ const Project = () => {
 
                 <Carousel>
                     {
-                        project.additionalImages && project.additionalImages.map((img, indx) => <div key={indx}>
-                            <img className="w-full max-h-[600px] bg-cover" src={img} />
+                        project.additionalImages && project.additionalImages.map((img, indx) => <div className="border-2 border-black" key={indx}>
+                            <img className="w-full max-h-[600px] bg-cover border-2 border-black" src={img} />
                         </div>)
                     }
                 </Carousel>

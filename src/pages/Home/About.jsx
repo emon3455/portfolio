@@ -11,7 +11,7 @@ const About = () => {
                 <div className="w-full lg:w-2/3">
 
                     <div className="space-y-4 mb-4">
-                        <h2 className="text-center text-4xl xl:text-6xl font-extrabold bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent ">About Me</h2>
+                        <h2 className="text-center text-3xl xl:text-5xl font-extrabold bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent ">About Me</h2>
                         <p className='text-lg lg:text-xl font-semibold text-justify p-2'>
                             Hello, my name is Emon. I am originally from Kishoregonj, but I currently reside in Mohakhali, Dhaka. I am a student at Green University of Bangladesh, pursuing a degree in Computer Science and Engineering. Since the start of 2023, I have been actively learning Full-stack Web Development. I am enthusiastic about expanding my skills in this field and exploring various aspects of web development.
                         </p>

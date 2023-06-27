@@ -34,7 +34,7 @@ const Contact = () => {
     return (
         <div id="contact" className="container mx-auto h-full lg:h-[700px] mt-40">
 
-            <h4 className="text-4xl xl:text-6xl lg:my-5 font-extrabold text-center bg-gradient-to-r from-indigo-700  to-pink-500  bg-clip-text text-transparent">Contact US</h4>
+            <h4 className="text-3xl xl:text-5xl lg:my-5 font-extrabold text-center bg-gradient-to-r from-indigo-700  to-pink-500  bg-clip-text text-transparent">Contact US</h4>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 mt-20 gap-5 p-4 lg:p-0">
                 <div className="w-full  max-w-lg mx-auto shadow-lg shadow-sky-400/50 rounded-2xl bg-base-100 order-2 lg:order-1">

@@ -10,8 +10,8 @@ import { allProjects } from "../../../allProjects";
 const Projects = () => {
 
     return (
-        <div id="projects" className="my-10 container mx-auto h-full xl:h-[700px]">
-            <h2 className="p-2 text-4xl xl:text-6xl text-center font-extrabold bg-gradient-to-r  from-indigo-700 via-purple-400 to-pink-600 bg-clip-text text-transparent">Top Projects</h2>
+        <div id="projects" className="my-6 container mx-auto ">
+            <h2 className="p-2 text-3xl xl:text-5xl text-center font-extrabold bg-gradient-to-r  from-indigo-700 via-purple-400 to-pink-600 bg-clip-text text-transparent">Top Projects</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-4 my-6 p-2">
 
@@ -22,8 +22,8 @@ const Projects = () => {
                         </div>
                         <div className="card-body">
                             <h2 className="text-2xl font-bold">{prj.projectName}</h2>
-                            <p className="text-lg">
-                                {prj.projectDescription}
+                            <p className="text-lg text-justify">
+                                {prj?.projectDescription.slice(0,150)+"..."}
                             </p>
 
                             <div className="text-center my-5">

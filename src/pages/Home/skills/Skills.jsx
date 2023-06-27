@@ -34,7 +34,7 @@ const Skills = () => {
 
     return (
         <div id="skills" className="container mx-auto lg:h-[700px] px-2">
-            <h2 className="my-6 text-4xl xl:text-6xl font-extrabold text-center text-violet-600">
+            <h2 className="my-6 text-3xl xl:text-5xl font-extrabold text-center text-violet-600">
                 Skills
             </h2>
             <p className="text-lg lg:text-xl p-2 text-justify lg:p-0 lg:text-center font-semibold">
