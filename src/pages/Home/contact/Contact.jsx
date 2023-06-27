@@ -32,7 +32,7 @@ const Contact = () => {
 
 
     return (
-        <div id="contact" className="container mx-auto h-full lg:h-[700px] mt-20">
+        <div id="contact" className="container mx-auto h-full lg:h-[700px] mt-40">
 
             <h4 className="text-4xl xl:text-6xl lg:my-5 font-extrabold text-center bg-gradient-to-r from-indigo-700  to-pink-500  bg-clip-text text-transparent">Contact US</h4>
 
@@ -60,7 +60,7 @@ const Contact = () => {
                         </div>
 
                         <div className="form-control mt-6">
-                            <input type="submit" value="Send" className="p-3 text-xl text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 " />
+                            <input type="submit" value="Send" className="cursor-pointer p-3 text-xl text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 " />
                         </div>
                     </form>
                 </div>
