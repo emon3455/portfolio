@@ -32,6 +32,7 @@ const Particle = () => {
                     onHover: {
                       enable: true,
                       mode: "repulse",
+                      // "mode": "trail",
                       parallax: {
                         enable: false,
                         force: 2,

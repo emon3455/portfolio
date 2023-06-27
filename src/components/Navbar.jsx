@@ -35,7 +35,10 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-sm text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="#about">About</Link></li>
+                            <li><Link to="#skills">Skills</Link></li>
+                            <li><Link to="#projects">Projects</Link></li>
+                            <li><Link to="#contact">Contact</Link></li>
                         </ul>
                     </div>
                     <Link className="btn btn-ghost normal-case text-4xl font-bold bg-gradient-to-r  from-indigo-700 via-purple-500 to-pink-400 bg-clip-text text-transparent">Emon</Link>
@@ -44,8 +47,10 @@ const Navbar = () => {
                 <div className="navbar-end ">
                     <ul className="menu menu-horizontal px-1 text-lg  hidden lg:flex">
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
-
+                        <li><Link to="#about">About</Link></li>
+                        <li><Link to="#skills">Skills</Link></li>
+                        <li><Link to="#projects">Projects</Link></li>
+                        <li><Link to="#contact">Contact</Link></li>
                     </ul>
                     <button>
                         <label className="swap swap-rotate">
