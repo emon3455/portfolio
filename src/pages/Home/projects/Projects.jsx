@@ -21,13 +21,13 @@ const Projects = () => {
                             <img src={prj.projectImage} />
                         </div>
                         <div className="card-body">
-                            <h2 className="text-2xl font-bold">{prj.projectName}</h2>
+                            <h2 className="text-lg lg:text-2xl font-bold">{prj.projectName}</h2>
                             <p className="text-md text-justify">
                                 {prj?.projectDescription.slice(0,150)+"..."}
                             </p>
 
                             <div className="text-center my-2">
-                                <Link to={`/${prj.id}`} className="p-2 text-lg text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">View Details</Link>
+                                <Link to={`/${prj.id}`} className="p-2 lg:text-lg text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">View Details</Link>
                             </div>
 
                         </div>

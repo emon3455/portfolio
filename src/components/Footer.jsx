@@ -1,4 +1,5 @@
 import { FaFacebook, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
     return (
@@ -14,11 +15,14 @@ const Footer = () => {
                     <a className="cursor-pointer" href="https://www.linkedin.com/in/md-emon-24b6ab234/">
                         <span className="text-2xl"><FaLinkedin></FaLinkedin> </span>
                     </a>
+                    <a className="cursor-pointer" href="mailto:emon.mhk69@gmail.com">
+                        <span className="text-2xl"> <GrMail></GrMail> </span>
+                    </a>
                    
                 </div>
             </div>
             <div>
-                <p>Copyright © 2023 - Developed by Emon</p>
+                <p>Copyright © 2023 || Developed by Emon</p>
             </div>
         </footer>
     );

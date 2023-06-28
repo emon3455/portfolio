@@ -1,12 +1,13 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import emon from "../../../public/emon.png";
+
 const About = () => {
     return (
         <div id='about' className="my-10 h-full lg:h-[700px] container mx-auto p-2">
             <div className="flex lg:justify-center lg:items-center flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-1/3">
-                    <img className='w-full rounded-lg mx-auto scale-90 hover:scale-100 duration-500 transition-all ease-linear shadow-lg shadow-sky-400/50' src={emon} alt="" />
+                    <img className='w-full rounded-lg mx-auto scale-75 hover:scale-90 duration-500 transition-all ease-linear shadow-lg shadow-sky-400/50' src={emon} alt="" />
                 </div>
                 <div className="w-full lg:w-2/3">
 
@@ -61,7 +62,7 @@ const About = () => {
                                         Academic Excellence Award
                                     </h3>
                                     <h3 className='lg:pr-60 text-justify'> Received Prestigious “VC AWARD” for Outstanding Academic performance. I have Achieved This for consecutively
-3 times in a row. </h3>
+                                        3 times in a row. </h3>
                                 </div>
                             </TabPanel>
 
