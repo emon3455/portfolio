@@ -17,12 +17,15 @@ const Banner = () => {
                                 text={["MERN Stack Developer,", "React Developer,", "Web Developer,",]}
                                 loop={true}
                                 delay={50}
-                            /></span> 
+                            /></span>
                             <br /> From Bangladesh
                         </h4>
+                        <p className="my-4">
+                            A versatile MERN stack developer proficient in MongoDB, Express, React, and Node.js. Skilled in creating robust web applications with seamless functionality and clean code.
+                        </p>
                     </div>
                     <div className="py-2">
-                        <a href="./_RESUME(Emon)_.pdf" download className="p-3 text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">Download Resume</a>
+                        <a href="./_RESUME(Emon)_.pdf" download className="p-2 text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">Download Resume</a>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2" >
