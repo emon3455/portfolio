@@ -56,7 +56,7 @@ export const allProjects = [
         id: 3,
         projectName: 'Food house',
         projectImage: 'https://i.ibb.co/NxWF7vq/img1.png',
-        liveLink: 'https://thai-master-chef.web.app/',
+        liveLink: 'https://food-house-auth.web.app/',
         serverSideCode: 'https://github.com/emon3455/Food-House-Server',
         clientSideCode: 'https://github.com/emon3455/Food-House-Client',
         additionalImages: [
