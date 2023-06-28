@@ -55,7 +55,7 @@ const Project = () => {
             </div>
 
             <div className="text-center my-10">
-                <Link to="/" className="p-1 md:p-2 xl:p-3 text-xl text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">Go Back To Home Page</Link>
+                <Link to="/" className="p-1 md:p-2 text-xl text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">Go Back To Home Page</Link>
             </div>
         </div>
     );

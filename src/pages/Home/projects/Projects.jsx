@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-4 my-6 p-2">
 
                 {
-                    allProjects && allProjects.map(prj => <div key={prj.id} className="card card-compact shadow-lg shadow-sky-500/50 bg-base-100 ">
+                    allProjects && allProjects.map(prj => <div key={prj.id} className="scale-95 hover:scale-100 duration-700 transition-all card card-compact shadow-lg shadow-sky-500/50 bg-base-100 ">
                         <div className="image-wrap">
                             <img src={prj.projectImage} />
                         </div>

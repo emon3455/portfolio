@@ -28,7 +28,7 @@ const Banner = () => {
                         <a href="./_RESUME(Emon)_.pdf" download className="p-2 text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">Download Resume</a>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2" >
+                <div className="w-full lg:w-1/2 scale-90 hover:scale-100 duration-500 transition-all ease-linear" >
                     <div className='w-3/4 mx-auto'>
                         <Lottie className='w-full h-full' animationData={bnr} loop={true}></Lottie>
                     </div>

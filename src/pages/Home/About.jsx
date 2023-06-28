@@ -6,7 +6,7 @@ const About = () => {
         <div id='about' className="my-10 h-full lg:h-[700px] container mx-auto p-2">
             <div className="flex lg:justify-center lg:items-center flex-col lg:flex-row gap-10">
                 <div className="w-full lg:w-1/3">
-                    <img className='w-full rounded-lg mx-auto scale-90 hover:scale-100 transition-all ease-linear shadow-lg shadow-sky-400/50' src={emon} alt="" />
+                    <img className='w-full rounded-lg mx-auto scale-90 hover:scale-100 duration-500 transition-all ease-linear shadow-lg shadow-sky-400/50' src={emon} alt="" />
                 </div>
                 <div className="w-full lg:w-2/3">
 
