@@ -42,17 +42,23 @@ const About = () => {
                             </TabPanel>
 
                             <TabPanel>
-                                <div className="font-semibold p-4">
+                                <div className="font-semibold p-2">
                                     <h3>
-                                        <span className='font-bold'>Institution:</span>  Green University Of Bangladesh
+                                        <span className='font-bold'>Institution:</span>  OyeBusy Technologies Pvt. Ltd.
                                     </h3>
                                     <h3>
-                                        <span className='font-bold'>Designation:</span>  Student Mentor
+                                        <span className='font-bold'>Designation:</span>  Trainee Web Developer
+                                    </h3>
+                                    <h3 className='text-lg'> Jun - August 2023 </h3>
+                                </div>
+                                <div className="font-semibold p-2">
+                                    <h3>
+                                        <span className='font-bold'>Institution:</span>  Logic Nexus
                                     </h3>
                                     <h3>
-                                        <span className='font-bold'>Department:</span>  Computer Science And Engineering
+                                        <span className='font-bold'>Designation:</span>  Jr. FrontEnd Developer
                                     </h3>
-                                    <h3 className='text-lg'> Spring Semister 2023 </h3>
+                                    <h3 className='text-lg'> August - Current 2023 </h3>
                                 </div>
                             </TabPanel>
 
@@ -62,7 +68,7 @@ const About = () => {
                                         Academic Excellence Award
                                     </h3>
                                     <h3 className='lg:pr-60 text-justify'> Received Prestigious “VC AWARD” for Outstanding Academic performance. I have Achieved This for consecutively
-                                        3 times in a row. </h3>
+                                        4 times in a row. </h3>
                                 </div>
                             </TabPanel>
 

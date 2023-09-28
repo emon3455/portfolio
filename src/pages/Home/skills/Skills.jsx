@@ -14,6 +14,9 @@ import figma from "../../../../public/skills/figma.png"
 import c from "../../../../public/skills/c.png"
 import cpp from "../../../../public/skills/cpp.png"
 import java from "../../../../public/skills/java.png"
+import redux from "../../../../public/skills/redux.png"
+import reduxToolkit from "../../../../public/skills/reduxToolkit.jpg"
+import rtkQuery from "../../../../public/skills/rtkQuery.png"
 
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -141,6 +144,31 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <span className="font-bold text-lg  my-2">REACT: 85%</span>
+                            </SwiperSlide>
+
+                            <SwiperSlide className=" w-60 h-60 flex-col">
+                                <div className="radial-progress scale-75 hover:scale-95 transition-all duration-700 text-violet-500" style={{ "--value": 90, "--size": "12rem" }}>
+                                    <div className="">
+                                        <img className="p-12 w-full" src={redux} alt="" />
+                                    </div>
+                                </div>
+                                <span className="font-bold text-lg  my-2">Redux: 90%</span>
+                            </SwiperSlide>
+                            <SwiperSlide className=" w-60 h-60 flex-col">
+                                <div className="radial-progress scale-75 hover:scale-95 transition-all duration-700 text-violet-500" style={{ "--value": 90, "--size": "12rem" }}>
+                                    <div className="">
+                                        <img className="p-12 w-full" src={reduxToolkit} alt="" />
+                                    </div>
+                                </div>
+                                <span className="font-bold text-lg  my-2">Redux Toolkit: 90%</span>
+                            </SwiperSlide>
+                            <SwiperSlide className=" w-60 h-60 flex-col">
+                                <div className="radial-progress scale-75 hover:scale-95 transition-all duration-700 text-violet-500" style={{ "--value": 90, "--size": "12rem" }}>
+                                    <div className="">
+                                        <img className="p-12 w-full" src={rtkQuery} alt="" />
+                                    </div>
+                                </div>
+                                <span className="font-bold text-lg  my-2">RTK Query: 90%</span>
                             </SwiperSlide>
 
                         </Swiper>
