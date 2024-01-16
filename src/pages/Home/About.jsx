@@ -44,21 +44,21 @@ const About = () => {
                             <TabPanel>
                                 <div className="font-semibold p-2">
                                     <h3>
-                                        <span className='font-bold'>Institution:</span>  OyeBusy Technologies Pvt. Ltd.
-                                    </h3>
-                                    <h3>
-                                        <span className='font-bold'>Designation:</span>  Trainee Web Developer
-                                    </h3>
-                                    <h3 className='text-lg'> Jun - August 2023 </h3>
-                                </div>
-                                <div className="font-semibold p-2">
-                                    <h3>
                                         <span className='font-bold'>Institution:</span>  Logic Nexus
                                     </h3>
                                     <h3>
                                         <span className='font-bold'>Designation:</span>  Jr. FrontEnd Developer
                                     </h3>
-                                    <h3 className='text-lg'> August - Current 2023 </h3>
+                                    <h3 className='text-lg'> July - September 2023 </h3>
+                                </div>
+                                <div className="font-semibold p-2">
+                                    <h3>
+                                        <span className='font-bold'>Institution:</span>  Abekus
+                                    </h3>
+                                    <h3>
+                                        <span className='font-bold'>Designation:</span>  FrontEnd Developer
+                                    </h3>
+                                    <h3 className='text-lg'> November - Current</h3>
                                 </div>
                             </TabPanel>
 
