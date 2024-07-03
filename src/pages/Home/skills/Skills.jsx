@@ -191,6 +191,10 @@ const Skills = () => {
                                     slidesPerView: 3,
                                     spaceBetween: 40,
                                 },
+                                1024: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 50,
+                                },
                             }}
                         >
 
@@ -218,7 +222,16 @@ const Skills = () => {
                                         <img className="p-14 w-full" src={mongodb} alt="" />
                                     </div>
                                 </div>
-                                <span className="font-bold text-lg  my-2">MongoDB: 80%</span>
+                                <span className="font-bold text-lg  my-2">MongoDB: 90%</span>
+                            </SwiperSlide>
+
+                            <SwiperSlide className=" w-60 h-60 flex-col">
+                                <div className="radial-progress scale-75 hover:scale-95 transition-all duration-700 text-red-800" style={{ "--value": 80, "--size": "12rem" }}>
+                                    <div className="">
+                                        <img className="p-7 w-full" src={'https://miro.medium.com/v2/resize:fit:1050/1*acfAKaDI7uv5GyFnJmiPhA.png'} alt="" />
+                                    </div>
+                                </div>
+                                <span className="font-bold text-lg  my-2">Mongoose: 90%</span>
                             </SwiperSlide>
 
                         </Swiper>
@@ -305,7 +318,15 @@ const Skills = () => {
                                         <img className="p-14 w-full" src={js} alt="" />
                                     </div>
                                 </div>
-                                <span className="font-bold text-lg  my-2"> Javascript : 80%</span>
+                                <span className="font-bold text-lg  my-2"> Javascript : 90%</span>
+                            </SwiperSlide>
+                            <SwiperSlide className=" w-60 h-60 flex-col">
+                                <div className="radial-progress scale-75 hover:scale-95 transition-all duration-700 text-blue-500" style={{ "--value": 80, "--size": "12rem" }}>
+                                    <div className="">
+                                        <img className="p-7 w-full rounded-full" src={'https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=1920%2C1920&ssl=1'} alt="" />
+                                    </div>
+                                </div>
+                                <span className="font-bold text-lg  my-2"> Python : 80%</span>
                             </SwiperSlide>
                             <SwiperSlide className=" w-60 h-60 flex-col">
                                 <div className="radial-progress scale-75 hover:scale-95 transition-all duration-700 text-violet-500" style={{ "--value": 90, "--size": "12rem" }}>

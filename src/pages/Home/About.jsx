@@ -14,7 +14,7 @@ const About = () => {
                     <div className="space-y-4 mb-4">
                         <h2 className="text-center text-2xl xl:text-4xl font-extrabold bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent ">About Me</h2>
                         <p className='text-lg lg:text-xl font-semibold text-justify p-2'>
-                            Hello, my name is Emon. I am originally from Kishoregonj, but I currently reside in Mohakhali, Dhaka. I am a student at Green University of Bangladesh, pursuing a degree in Computer Science and Engineering. Since the start of 2023, I have been actively learning Full-stack Web Development. I am enthusiastic about expanding my skills in this field and exploring various aspects of web development.
+                            Hello, my name is Emon. I am originally from Kishoregonj, but I currently reside in Mohakhali, Dhaka. I am a final semester student at Green University of Bangladesh, pursuing a degree in Computer Science and Engineering. Since the start of 2023, I have been actively learning Full-stack Web Development. I am enthusiastic about expanding my skills in this field and exploring various aspects of web development.
                         </p>
                     </div>
 
@@ -37,7 +37,8 @@ const About = () => {
                                     <h3> <span className='font-bold'>Program:</span>  B.S.C. IN CSE </h3>
                                     <h3> <span className='font-bold'>Department:</span>  Computer Science And Engineering</h3>
                                     <h3> Green University Of Bangladesh </h3>
-                                    <h3 className='text-lg'> 2021 - Present </h3>
+                                    <h3 className=''> 2021 - Present </h3>
+                                    <h3 className=''> CGPA - 3.84 </h3>
                                 </div>
                             </TabPanel>
 
@@ -49,7 +50,7 @@ const About = () => {
                                     <h3>
                                         <span className='font-bold'>Designation:</span>  Jr. FrontEnd Developer
                                     </h3>
-                                    <h3 className='text-lg'> July - September 2023 </h3>
+                                    <h3 className=''> June 2023 - November 2023 </h3>
                                 </div>
                                 <div className="font-semibold p-2">
                                     <h3>
@@ -58,7 +59,7 @@ const About = () => {
                                     <h3>
                                         <span className='font-bold'>Designation:</span>  FrontEnd Developer
                                     </h3>
-                                    <h3 className='text-lg'> November - Current</h3>
+                                    <h3 className=''> November 2023 - March 2024</h3>
                                 </div>
                             </TabPanel>
 
@@ -68,7 +69,7 @@ const About = () => {
                                         Academic Excellence Award
                                     </h3>
                                     <h3 className='lg:pr-60 text-justify'> Received Prestigious “VC AWARD” for Outstanding Academic performance. I have Achieved This for consecutively
-                                        4 times in a row. </h3>
+                                        5 times in a row. </h3>
                                 </div>
                             </TabPanel>
 

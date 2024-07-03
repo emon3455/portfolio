@@ -13,7 +13,7 @@ const Projects = () => {
         <div id="projects" className="my-6 container mx-auto ">
             <h2 className="p-2 text-2xl xl:text-4xl text-center font-extrabold bg-gradient-to-r  from-indigo-700 via-purple-400 to-pink-600 bg-clip-text text-transparent">Top Projects</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-4 my-6 p-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2 lg:gap-4 my-6 p-2">
 
                 {
                     allProjects && allProjects.map(prj => <div key={prj.id} className="scale-95 hover:scale-100 duration-700 transition-all card card-compact shadow-lg shadow-sky-500/50 bg-base-100 ">
@@ -27,7 +27,7 @@ const Projects = () => {
                             </p>
 
                             <div className="text-center my-2">
-                                <Link to={`/${prj.id}`} className="p-2 lg:text-lg text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">View Details</Link>
+                                <Link to={`/${prj.id}`} className="p-2 lg:text-md text-white rounded-lg font-semibold bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 ">View Details</Link>
                             </div>
 
                         </div>
